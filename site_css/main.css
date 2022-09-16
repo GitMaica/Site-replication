@@ -1,8 +1,5 @@
 body {
     margin: 0;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
 }
 
 a {
@@ -11,8 +8,17 @@ a {
     text-decoration: none;
 }
 
-h1, h2, p {
+p {
     margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
 }
 
 li {
@@ -31,6 +37,11 @@ li {
     display: flex;
     flex: 1;
     align-items: center;
+}
+
+.logo-img {
+    width: 48px;
+    height: 56px;
 }
 
 .right-side ul {
@@ -190,9 +201,26 @@ li {
 }
 
 .buy-now-cont button {
-    padding: 15px 108px;
+}
+
+.buy-now {
+    width: 270px;
+    padding: 15px 0px;
+    background-color: #e45826;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: none;
 }
 
 #four-sev-button button {
-    padding: 15px 100px;
+    width: 270px;
+    padding: 15px 0px;
+    background-color: #e45826;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    border: none;
 }
